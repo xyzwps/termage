@@ -1,0 +1,35 @@
+{
+  "name": "termage",
+  "version": "0.0.1",
+  "description": "Display an image in console/terminal.",
+  "main": "index.mjs",
+  "type": "module",
+  "keywords": [
+    "image",
+    "terminal",
+    "console",
+    "display",
+    "png",
+    "jpeg",
+    "gif",
+    "bmp",
+    "jpg",
+    "ascii"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "biome format --write *.mjs *.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansis": "^4.0.0",
+    "jimp": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
