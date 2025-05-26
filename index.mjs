@@ -31,6 +31,8 @@ export default async function draw(path) {
 
   for (let i = 0; i < newSize.height; i += 2) {
     const j = i + 1;
+    // TODO: support transparent
+    // TODO: support cli
     if (j >= newSize.height) {
       // one row
       let row = "";
