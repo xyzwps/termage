@@ -31,9 +31,6 @@ export default async function draw(path) {
 
   for (let i = 0; i < newSize.height; i += 2) {
     const j = i + 1;
-    // TODO: support transparent and fix readme
-    // TODO: support cli
-    // TODO: add license
     if (j >= newSize.height) {
       // one row
       let row = "";

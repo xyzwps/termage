@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Display an image in console/terminal.",
   "main": "index.mjs",
+  "types": "index.d.ts",
+  "bin": {
+    "termage": "./cli.mjs"
+  },
   "type": "module",
   "keywords": [
     "image",
@@ -17,10 +21,12 @@
     "ascii"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "format": "biome format --write *.mjs *.json"
   },
-  "author": "xyzwps",
+  "author": {
+    "name": "xyzwps",
+    "email": "xyzwps@outlook.com"
+  },
   "license": "MIT",
   "repository": "https://github.com/xyzwps/termage",
   "dependencies": {
